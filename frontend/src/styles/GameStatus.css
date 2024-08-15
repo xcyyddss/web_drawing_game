@@ -1,0 +1,162 @@
+
+.GameStatus-container {
+    max-width: 800px;
+    max-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.text-box {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.input-box {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+    padding: 5px;
+    margin: 5px;
+}
+
+.timer-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.start-button{  
+    /* 设置按钮的宽度和高度，或者你可以使用 padding 来控制内部空间 */  
+    width: 100px;  
+    height: 50px;  
+  
+    /* 使按钮居中显示（如果你需要的话） */  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+  
+    /* 设置按钮的背景色 */  
+    background-color: #4CAF50; /* 绿色，你可以替换为你喜欢的颜色 */  
+  
+    /* 设置边框样式 */  
+    border: none;  
+    border-radius: 5px; /* 圆角 */  
+  
+    /* 文本颜色和字体设置 */  
+    color: white;  
+    font-size: 16px;  
+    font-weight: bold;  
+  
+    /* 设置鼠标悬停时的样式变化 */  
+    cursor: pointer;  
+    transition: background-color 0.3s ease; /* 过渡效果使颜色变化更平滑 */  
+  
+    /* 为鼠标悬停时添加背景色变化 */  
+    &:hover {  
+        background-color: #2d6630; /* 稍暗的绿色 */  
+    }  
+  
+    /* （可选）为按钮添加阴影效果 */  
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);  
+  
+    /* （可选）如果你希望按钮不可点击时有不同的样式 */  
+    &:disabled {  
+        background-color: #999; /* 灰色 */  
+        cursor: not-allowed;  
+    }  
+}
+
+.ready-button{  
+    /* 设置按钮的宽度和高度，或者你可以使用 padding 来控制内部空间 */  
+    width: 100px;  
+    height: 50px;  
+  
+    /* 使按钮居中显示（如果你需要的话） */  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+  
+    /* 设置按钮的背景色 */  
+    background-color: #365ddc; /* 绿色，你可以替换为你喜欢的颜色 */  
+  
+    /* 设置边框样式 */  
+    border: none;  
+    border-radius: 5px; /* 圆角 */  
+  
+    /* 文本颜色和字体设置 */  
+    color: white;  
+    font-size: 16px;  
+    font-weight: bold;  
+  
+    /* 设置鼠标悬停时的样式变化 */  
+    cursor: pointer;  
+    transition: background-color 0.3s ease; /* 过渡效果使颜色变化更平滑 */  
+  
+    /* 为鼠标悬停时添加背景色变化 */  
+    &:hover {  
+        background-color: #161c53; /* 稍暗的绿色 */  
+    }  
+  
+    /* （可选）为按钮添加阴影效果 */  
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);  
+  
+    /* （可选）如果你希望按钮不可点击时有不同的样式 */  
+    &:disabled {  
+        background-color: #999; /* 灰色 */  
+        cursor: not-allowed;  
+    }  
+}
+
+.exit-button{  
+    /* 设置按钮的宽度和高度，或者你可以使用 padding 来控制内部空间 */  
+    width: 100px;  
+    height: 50px;  
+  
+    /* 使按钮居中显示（如果你需要的话） */  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+  
+    /* 设置按钮的背景色 */  
+    background-color: #e35252; /* 绿色，你可以替换为你喜欢的颜色 */  
+  
+    /* 设置边框样式 */  
+    border: none;  
+    border-radius: 5px; /* 圆角 */  
+  
+    /* 文本颜色和字体设置 */  
+    color: white;  
+    font-size: 16px;  
+    font-weight: bold;  
+  
+    /* 设置鼠标悬停时的样式变化 */  
+    cursor: pointer;  
+    transition: background-color 0.3s ease; /* 过渡效果使颜色变化更平滑 */  
+  
+    /* 为鼠标悬停时添加背景色变化 */  
+    &:hover {  
+        background-color: #900c0c; /* 稍暗的绿色 */  
+    }  
+  
+    /* （可选）为按钮添加阴影效果 */  
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);  
+  
+    /* （可选）如果你希望按钮不可点击时有不同的样式 */  
+    &:disabled {  
+        background-color: #999; /* 灰色 */  
+        cursor: not-allowed;  
+    }  
+}

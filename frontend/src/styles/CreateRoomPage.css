@@ -1,0 +1,65 @@
+.create-room-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.input-container {  
+  margin-bottom: 15px; /* 底部外边距，用于分隔不同的输入字段 */  
+}  
+  
+.input-container label {  
+  display: block; /* 使得标签独占一行 */  
+  margin-bottom: 5px; /* 标签和输入字段之间的间距 */  
+  font-weight: bold; /* 加粗标签文本 */  
+}  
+  
+.input-container select {  
+  width: 100%; /* 选择框宽度占满容器 */  
+  padding: 8px; /* 内边距 */  
+  border: 1px solid #ccc; /* 边框 */  
+  border-radius: 4px; /* 边框圆角 */  
+  box-sizing: border-box; /* 确保padding和border不会增加元素的总宽度 */  
+  font-size: 16px; /* 字体大小 */  
+  transition: border-color 0.2s ease-in-out; /* 过渡效果，当边框颜色改变时 */  
+}  
+  
+.input-container select:focus {  
+  border-color: #007bff; /* 当选择框聚焦时，边框颜色变化 */  
+  outline: none; /* 去除默认的浏览器聚焦边框 */  
+}  
+  
+/* 可选：样式化选项 */  
+.input-container select option {  
+  padding: 4px; /* 选项的内边距 */  
+}  
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

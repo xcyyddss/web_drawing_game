@@ -1,0 +1,90 @@
+.sketchpad-container {
+  max-width: 800px;
+  max-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #000;
+  padding: 20px;
+  position: relative;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.color-option:hover {
+  border: 2px solid #333;
+}
+
+.color-option.active {
+  border: 2px solid #333;
+}
+
+.color-option.eraser {
+  background-color: #FFFFFF;
+  border: 1px solid #000;
+}
+
+.sketchpad-button {
+  width: 100px;  
+  height: 50px; 
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+
+  background-color: #f39908;
+  transition: background-color 0.3s ease;
+  
+  
+  color: white;  
+  font-size: 16px;  
+  font-weight: bold;  
+
+  &:hover {  
+    background-color: #a96b01; /* 稍暗的绿色 */  
+  }  
+
+  /* （可选）为按钮添加阴影效果 */  
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);  
+
+}
+
+.width-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.width-option {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  
+  background-color: #bec41c;
+  transition: background-color 0.3s ease;
+  
+  &:hover {  
+    background-color: #ebbc22; /* 稍暗的绿色 */  
+  }  
+
+  /* （可选）为按钮添加阴影效果 */  
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);  
+}
+
+.width-option.active {
+  background-color: #ddd;
+  
+  background-color: #bec41c;
+  transition: background-color 0.3s ease;
+  
+  &:hover {  
+    background-color: #ebbc22; /* 稍暗的绿色 */  
+  }  
+
+  /* （可选）为按钮添加阴影效果 */  
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);  
+}
